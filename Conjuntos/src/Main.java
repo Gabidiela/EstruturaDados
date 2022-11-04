@@ -20,9 +20,11 @@ public class Main {
         sacolaFrutas.add("Tomate");
         sacolaFrutas.add("Maçã");
 
-
         System.out.println(sacolaFrutas);
         System.out.println("-------------------------------------------------");
+
+
+
 
         System.out.println("-------------------------------------------------");
         TreeSet<Integer> OrdenaNumero = new TreeSet<>();
@@ -38,6 +40,9 @@ public class Main {
 
         System.out.println(OrdenaNumero);
         System.out.println("-------------------------------------------------");
+
+
+
 
         System.out.println("-------------------------------------------------");
         LinkedHashSet<Double> OrdenaInsercao = new LinkedHashSet<>();
