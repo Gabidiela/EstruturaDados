@@ -27,6 +27,11 @@ public class PilhasComList {
 	public boolean vazia() {
 		return nomes.size() == 0;
 	}
+	
+	//Mostrar nome do Topo
+	public  String pegaTopo() {
+		return nomes.get(nomes.size()-1);
+	}
 
 	// Método toString
 	@Override

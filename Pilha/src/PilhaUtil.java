@@ -13,6 +13,7 @@ public class PilhaUtil {
 		pilha.insere("Gabriela");
 		pilha.insere("Gustavo");
 		pilha.insere("Hamilton");
+		pilha.insere("Ícaro");
 		pilha.insere("Mariana");
 		System.out.println("Nomes inseridos: " + pilha);
 
@@ -27,6 +28,11 @@ public class PilhaUtil {
 
 		// Para verificar se a Pilha está vazia
 		System.out.println(" A pilha está vazia: " + pilha.vazia());
+		
+		//Mostrar o nome que está no Topo
+		String topo = pilha.pegaTopo();
+		System.out.println("Qual Elemento que está no Topo : " + topo);
 	}
+
 
 }
