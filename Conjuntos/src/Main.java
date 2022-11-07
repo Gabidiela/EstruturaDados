@@ -21,6 +21,12 @@ public class Main {
         sacolaFrutas.add("Maçã");
 
         System.out.println(sacolaFrutas);
+
+        System.out.println("Removendo item 'Laranja' da sacola");
+        sacolaFrutas.remove("Laranja");
+
+        System.out.println(sacolaFrutas);
+        System.out.println("O tamanho do conjunto é: " + sacolaFrutas.size());
         System.out.println("-------------------------------------------------");
 
 
@@ -39,6 +45,12 @@ public class Main {
         OrdenaNumero.add(19);
 
         System.out.println(OrdenaNumero);
+
+        System.out.println("Removendo item '3' do conjunto");
+        OrdenaNumero.remove(3);
+
+        System.out.println(OrdenaNumero);
+        System.out.println("O tamanho do conjunto é: " + OrdenaNumero.size());
         System.out.println("-------------------------------------------------");
 
 
@@ -57,6 +69,11 @@ public class Main {
         OrdenaInsercao.add(19.6);
 
         System.out.println(OrdenaInsercao);
+        System.out.println("Removendo item '89.7' da sacola");
+        OrdenaInsercao.remove(89.7);
+
+        System.out.println(OrdenaInsercao);
+        System.out.println("O tamanho do conjunto é: " + OrdenaInsercao.size());
         System.out.println("-------------------------------------------------");
 
     }
