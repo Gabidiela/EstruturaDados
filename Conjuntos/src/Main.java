@@ -5,7 +5,6 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Para o exemplo vamos criar um conjunto que representa uma sacola de frutas");
         System.out.println("-------------------------------------------------");
         //Criando o conjunto sacolaFrutas usando HashSet
@@ -21,13 +20,7 @@ public class Main {
         sacolaFrutas.add("Tomate");
         sacolaFrutas.add("Maçã");
 
-        System.out.println(sacolaFrutas + "\n");
-
-        System.out.println("Removendo Item 'Laranja' da sacola");
-        sacolaFrutas.remove("Laranja");
-
-        System.out.println("\n" + sacolaFrutas + "\n");
-        System.out.println("O tamanho do conjunto é: " + sacolaFrutas.size());
+        System.out.println(sacolaFrutas);
         System.out.println("-------------------------------------------------");
 
 
@@ -44,20 +37,11 @@ public class Main {
         OrdenaNumero.add(89);
         OrdenaNumero.add(30);
         OrdenaNumero.add(19);
-        OrdenaNumero.add(28);
-        OrdenaNumero.add(6);
 
         System.out.println(OrdenaNumero);
-
-        System.out.println("Removendo Item '3' do Conjunto ordenado");
-        OrdenaNumero.remove(3);
-
-        System.out.println(OrdenaNumero + "\n");
-        System.out.println("O tamanho do conjunto é: " + OrdenaNumero.size());
-
         System.out.println("-------------------------------------------------");
 
-//
+
 
 
         System.out.println("-------------------------------------------------");
@@ -73,13 +57,6 @@ public class Main {
         OrdenaInsercao.add(19.6);
 
         System.out.println(OrdenaInsercao);
-
-        System.out.println("Removendo Item '89.7' do Conjunto ordenado por ordem de inserção");
-        OrdenaInsercao.remove(89.7);
-
-        System.out.println("\n" + OrdenaInsercao + "\n");
-        System.out.println("O tamanho do conjunto é: " + OrdenaInsercao.size());
-
         System.out.println("-------------------------------------------------");
 
     }
