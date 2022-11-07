@@ -13,5 +13,12 @@ Vscode;
 git clone https://github.com/Gabidiela/EstruturaDados
 ~~~
 <hr>
-
+## Integrantes do grupo que desenvolveu esse projeto
+* Ariane Rocha
+* Brendo Gomes
+* Gabriela Gomes
+* Gustavo Ewerthon
+* Hamilton Freitas
+* E Mariana Moreira
+----------------------------------------------------
 Feito com muito ❤ 
